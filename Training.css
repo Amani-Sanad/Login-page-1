@@ -1,12 +1,13 @@
 body
 { 
-    background-color:#D4FFFF;
-    font-family:cursive;
+        background-color:#D4FFFF;
+        font-family:cursive;
 	font-weight:bold;
 }
-.box, .user, .pass, .but, .forget
 
-{	border-radius:1em;
+.box, .user, .pass, .but, .forget
+{	
+	border-radius:1em;
 	padding:15px;
 	margin:2em auto;
 	display:block;
@@ -14,9 +15,7 @@ body
 	outline:none;
 }
 
-.user, .pass
-{width:250px}
-
+.user, .pass  {width:250px}
 
 .box
 {
@@ -34,13 +33,7 @@ body
 	font-weight:bold;
 	padding:0px;
 	}
-.user
-{	
-}
-.pass
-{
-   
-}
+
 .but
 {
 	width:100px;
